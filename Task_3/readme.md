@@ -30,7 +30,7 @@ ON customer_details."Customer_id" = customers."id"
 GROUP BY customers."Country";
 ```
 
-Testing the above queries against the [data](create_tables.sql) in a Postgres 13 database produces:
+Testing the above queries against the [data](create_tables.sql) in a PostgreSQL 13 database produces:
 
 ![query1](p1.PNG)
 ![query1](p2.PNG)
